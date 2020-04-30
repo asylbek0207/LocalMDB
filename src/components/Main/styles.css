@@ -1,0 +1,32 @@
+.main {
+    padding: 15px;
+    min-height: 100vh;
+    background-color: #e9ecef;
+}
+
+.main .movie-list {
+    max-height: 83vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin-bottom: 22px;
+}
+
+.search-field {
+    margin-left: auto;
+}
+.movie-slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: #000000;
+    height: 89vh;
+}
+.carousel-item {
+    max-width: 735px;
+    max-height: 500px;
+}
+
+.carousel-item .movie-item {
+    margin: 30px;
+}
